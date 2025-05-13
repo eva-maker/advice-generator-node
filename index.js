@@ -16,7 +16,7 @@ async function loadConfig(filename) {
 
 // КРОК 5. Отримання поради з API
 async function getDataFromApi(apiKey) {
-  const url = 'https://api.adviceslip.com/advice'; // API-ключ не використовується в цьому API
+  const url = 'https://api.adviceslip.com/advice'; 
 
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
